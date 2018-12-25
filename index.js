@@ -57,5 +57,6 @@ module.exports={
     define: define,
     createModels: createModels,
     Sequelize: Sequelize,
+    models:models,
     syncModel: ()=>{sequelize.sync()}
 }
